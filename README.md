@@ -10,20 +10,8 @@ yarn install
 yarn run serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## 微信信息组件
 
-### Run your tests
-```
-yarn run test
-```
+实现思路见 react 组件的 [README](https://github.com/maple-leaf/wechat-message-react/blob/master/README.md)。
 
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+差异只是自定义 `render`，`messagePrefix` 和 `messagePostfix` 在 `vue` 这使用的是 `slot` 来实现。
